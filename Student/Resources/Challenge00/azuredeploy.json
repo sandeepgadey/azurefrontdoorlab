@@ -12,7 +12,7 @@
     "functions": [
     ],
     "variables": {
-        "domainName": "[concat(parameters('sitename'), '.contosomasks.com')]",
+        "domainName": "[concat(parameters('sitename'), '.contosocsalabs.com')]",
         "appServiceName": "[concat('contosomasks-', parameters('sitename'))]",
         "appServiceFQDN": "[concat(variables('appServiceName'), '.azurewebsites.net')]",
         "wwwFQDN": "[concat('www.', variables('domainName'))]",
@@ -89,7 +89,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[concat('https://contosomasks-lab-mgmt.azurewebsites.net/api/registerStudent/', parameters('sitename'), '/', reference(variables('domainName')).NameServers[0], '/', reference(variables('domainName')).NameServers[1], '/', reference(variables('domainName')).NameServers[2], '/', reference(variables('domainName')).NameServers[3])]",
+                    "uri": "[concat('https://contosocsalabs-lab-mgmt.azurewebsites.net/api/registerStudent/', parameters('sitename'), '/', reference(variables('domainName')).NameServers[0], '/', reference(variables('domainName')).NameServers[1], '/', reference(variables('domainName')).NameServers[2], '/', reference(variables('domainName')).NameServers[3])]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
