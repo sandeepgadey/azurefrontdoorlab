@@ -20,9 +20,9 @@ For the purpose of this description, lets pretend Contoso Masks' website is host
 
 When talking about the performance characteristic of a single resource request (a single GET/POST/etc...), there are 7 numbers that used to describe it:
 1. **Blocked** - A Web Browser generally defaults the number of open connections to a given DNS Name to 2.  If 2 other resources are being requested for the same DNS Name, the Web Browser will "block" the request.
-2. **DNS Lookup** - This is the time it takes the browser to perform a DNS lookup, or translating www.contosomasks.com to an IP Address.
+2. **DNS Lookup** - This is the time it takes the browser to perform a DNS lookup, or translating www.contosomask.com to an IP Address.
 3. **Connect** - How long does it take for the Web Browser to establish a connection to "server" for the request.  Server is the external ***thing*** that is responding to the request.   *HINT* - This isn't always your webserver.
-4. **TLS Handshake** - How long does it take your Web Browser to safely establish a secure tunnel to the server.  The [Transport Layer Security (TLS) Handshake Protocol](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-handshake-protocol) is the established process to safely ensure when you go to www.contosomasks.com, you really are going to the real one.  (The internet can be a very dark place).  **The issue is, this is several round trips from Web Browser to server**
+4. **TLS Handshake** - How long does it take your Web Browser to safely establish a secure tunnel to the server.  The [Transport Layer Security (TLS) Handshake Protocol](https://docs.microsoft.com/en-us/windows/win32/secauthn/tls-handshake-protocol) is the established process to safely ensure when you go to www.contosomask.com, you really are going to the real one.  (The internet can be a very dark place).  **The issue is, this is several round trips from Web Browser to server**
    1. [Man in the middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) is one example of what this protects.
 5. **Send Request** - Time to transmit the HTTP Request.
 6. **Wait for Response** - Time for the First Byte of the response to be received.
