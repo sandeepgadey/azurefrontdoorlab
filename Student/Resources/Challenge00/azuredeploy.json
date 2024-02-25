@@ -141,7 +141,7 @@
                         "[resourceId('Microsoft.Web/sites', variables('appServiceName'))]"
                     ],
                     "properties": {
-                        "repoUrl": "https://github.com/andywahr/contosomasks.git",
+                        "repoUrl": "https://github.com/sandeepgadey/ContosoCSALabs.com.git",
                         "branch": "master",
                         "isManualIntegration": true
                     }
