@@ -16,7 +16,7 @@ For this challenge we are going to:
 
 ## Success Criteria
 
-- Demonstrate the website still works thru Front Door via http://frontdoor.***SITENAME***.contosomasks.com redirects to https://frontdoor.***SITENAME***.contosomasks.com.  Also verify that deeper links also redirects to HTTPS version.
+- Demonstrate the website still works thru Front Door via http://frontdoor.***SITENAME***.contosocsalabs.com redirects to https://frontdoor.***SITENAME***.contosocsalabs.com.  Also verify that deeper links also redirects to HTTPS version.
 
 ## Learning Resources
 
