@@ -1,8 +1,8 @@
-# The Internet just happened to my website! - Azure Front Door (1 day)
+# Digital CSA Americas Azure Bootcamp - Azure Front Door Lab
 
 ## Introduction
 
-The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems **Azure Front Door** addresses.  This challenge based hack is intended to teach you how to evolve a simulated local web site (https://www.contosomasks.com) into a globally accelerated, protected web site with burst offset.
+The Internet is much like water, in one hand an amazing thing that provides life/capability for so much, but in the other hand can be the most destructive force in nature.  Large numbers of users, large size and/or number of resources on pages, malicious activity, site slows down the further away it is, or events triggering massive spikes in traffic are only a few of the problems **Azure Front Door** addresses.  This challenge based hack is intended to teach you how to evolve a simulated local web site (https://www.contosomask.com) into a globally accelerated, protected web site with burst offset.
 
 ## Learning Objectives
 In this hack you will be solving the common problem that websites have with the Front Door services from Azure:
@@ -40,17 +40,11 @@ In this hack you will be solving the common problem that websites have with the 
   - [Google Chrome](https://www.google.com/chrome/)
   
 ## Repository Contents
-- ./Coach/Resources/ContosoMasks.com
-  - Code for the website that Front Door will refer to
-- ./Coach/images
-  - Images for the coach's guide
 - ./Student/Resources
   - code and templates needed for challenges.
 - ./Student/images
   - Images for the student's guide
 
-## Contributors
-- Andy Wahrenberger
 
 
 
