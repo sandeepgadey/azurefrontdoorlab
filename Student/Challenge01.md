@@ -60,7 +60,7 @@ For this challenge we are going to:
 
 Use the link below to deploy the solution to your resource group.
 
-[![Deploy the to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fsandeepgadey%2Fazurefrontdoorlab%2Fblob%2Fmain%2FStudent%2FResources%2FChallenge00%2Fazuredeploy.json)
+[![Deploy the to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsandeepgadey%2Fazurefrontdoorlab%2Fblob%2Fmain%2FStudent%2FResources%2FChallenge00%2Fazuredeploy.json)
 
 ## Success Criteria
 
