@@ -10,9 +10,9 @@ Well, you had to ask.
 
 Change in events have caused a shift where everyone needs to work from home!  You need to get that message out, but that message is getting a significant amount of load. The direct link, /Message, got distributed by random people all over the internet and people are just constantly refresh/reloading that one page to get the latest information.
 
-When you are faced with massive amounts of *valid* traffic for a specific page, the concept is called traffic shaping, where you use something like Front Door to direct traffic to different backend origins to host your content.  This is very commonly done in eCommerce for those burst events such as Black Friday, Cyber Monday, Single's Day, Boxing Day, etc...  Those are well planned out, and use a different DNS name, such as "deals.contosomasks.com".  
+When you are faced with massive amounts of *valid* traffic for a specific page, the concept is called traffic shaping, where you use something like Front Door to direct traffic to different backend origins to host your content.  This is very commonly done in eCommerce for those burst events such as Black Friday, Cyber Monday, Single's Day, Boxing Day, etc...  Those are well planned out, and use a different DNS name, such as "deals.contosomask.com".  
 
-In this case, we don't have that luxury as the business put out an initial piece of content located at /Message.  Don't worry, Front Door and Azure Storage has your covered!  The Azure Storage service has a feature called [Static Web Site hosting](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website).  Sounds great?  For convenience, you can download the static version of /Message [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/andywahr/WhatTheHack/blob/master/017-FrontDoor/Student/Resources/Challenge03).
+In this case, we don't have that luxury as the business put out an initial piece of content located at /Message.  Don't worry, Front Door and Azure Storage has your covered!  The Azure Storage service has a feature called [Static Web Site hosting](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website).  Sounds great?  For convenience, you can download the static version of /Message [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sandeepgadey/azurefrontdoorlab/tree/main/Student/Resources/Challenge03).
 
 ## Description
 
@@ -24,7 +24,7 @@ For this challenge we are going to:
 
 ## Success Criteria
 
-- Demonstrate the website thru Front Door via https://frontdoor.***SITENAME***.contosomasks.com/Message works
+- Demonstrate the website thru Front Door via https://frontdoor.***SITENAME***.contosocsalabs.com/Message works
   - ***HINT*** - The first line of the web page will also include the text:
 &nbsp; `(And now from home!)`
 
