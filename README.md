@@ -38,13 +38,6 @@ In this hack you will be solving the common problem that websites have with the 
 - Some form of Chromium Web Browser installed
   - [Microsoft Edge](https://www.microsoft.com/en-us/edge)
   - [Google Chrome](https://www.google.com/chrome/)
-  
-## Repository Contents
-- ./Student/Resources
-  - code and templates needed for challenges.
-- ./Student/images
-  - Images for the student's guide
-
 
 
 
