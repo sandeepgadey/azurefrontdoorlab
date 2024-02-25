@@ -56,16 +56,16 @@ You will notice we aren't talking about caching yet, which is the concept of sto
 
 For this challenge we are going to:
 1. Provision a new Front Door resource for your website
-2. Create a Custom Domain in Front Door for you website with SSL, called frontdoor.***SITENAME***.contosomasks.com, where SITENAME is what you specified in Challenge 0.
+2. Create a Custom Domain in Front Door for you website with SSL, called frontdoor.***SITENAME***.contosocsalabs.com, where SITENAME is what you specified in Challenge 0.
    1. **IMPORTANT** - Normally you migrate a DNS Name, like www, to Front Door.  For comparison purposes, we are using a different name for the Front Door implementation.
   
 
 ## Success Criteria
 
-- Demonstrate the website working thru Front Door via https://frontdoor.***SITENAME***.contosomasks.com 
+- Demonstrate the website working thru Front Door via https://frontdoor.***SITENAME***.contosocsalabs.com 
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 - Show requests that were logged thru Front Door's logs
-- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the www.***SITENAME***.contosomasks.com vs frontdoor.***SITENAME***.contosomasks.com performance.
+- With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the www.***SITENAME***.contosocsalabs.com vs frontdoor.***SITENAME***.contosocsalabs.com performance.
   - ***HINT*** - Make sure to run it 3 times prior to looking a final results.
   - Compare the Connect and TLS times
 
