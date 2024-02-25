@@ -35,15 +35,15 @@ For this challenge we are going to:
    - At the prompt "w3af/profiles>>>", type:  `use OWASP_TOP10`
    - At the prompt "w3af/profiles>>>", type:  `back`
    - At the prompt "w3af>>>", type:  `target`
-   - At the prompt "w3af/config:target>>>", type (substitute your site name for SITENAME):  `set target https://frontdoor.***SITENAME***.contosomasks.com`
+   - At the prompt "w3af/config:target>>>", type (substitute your site name for SITENAME):  `set target https://frontdoor.***SITENAME***.contosocsalabs.com`
   - At the prompt "w3af/config:target>>>", type `back`
   - At the prompt "w3af>>>", type:  `start`
-3. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosomasks.com performance.
+3. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosocsalabs.com performance.
    - You should see several of the requests fail now for the 
 
 ## Success Criteria
 
-- Demonstrate the website still works thru Front Door via https://frontdoor.***SITENAME***.contosomasks.com 
+- Demonstrate the website still works thru Front Door via https://frontdoor.***SITENAME***.contosocsalabs.com 
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 - Show distinct list of rules that were used in  requests with the count of offenses in the Azure logs.
 - Demonstrate the geofiltering rule is blocking requests for countries other than your own
