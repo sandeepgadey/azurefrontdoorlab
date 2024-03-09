@@ -1,10 +1,10 @@
-# Challenge 5 - Force HTTPS thru Rules Engine
+# Challenge 4 - Force HTTPS thru Rules Engine
 
 [< Previous Challenge [4]](./Challenge04.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**
 
 ## Introduction
 
-We now have a globally scaled website, protected by WAF, and routing traffic for a specific address that uses a different backend to relieve pressure on our current website.  Now we have to make sure that all traffic is forced to HTTPS.  
+We now have a globally scaled website, protected by WAF. Now we have to make sure that all traffic is forced to HTTPS.  
 
 We can use the new [Rules Engine in Front Door](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-rules-engine) to specify rules to execute at the edge before sending traffic to your origin.  
 
@@ -12,7 +12,7 @@ We can use the new [Rules Engine in Front Door](https://docs.microsoft.com/en-us
 
 For this challenge we are going to:
 1. Create a Rules Engine for Front Door and associate to all Routing rules
-2. Create a rule that redirects HTTP to HTTPS and it must support any HTTP request that comes in.
+2. Create a rule that redirects HTTP to HTTPS and it must support any HTTP request that comes in as outlined [here](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-how-to-redirect-https)
 
 ## Success Criteria
 

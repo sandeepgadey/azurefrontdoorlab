@@ -1,4 +1,4 @@
-# Digital CSA Americas Azure Bootcamp - Azure Front Door Lab
+# Digital CSA Americas Azure Bootcamp - Lab2 - Azure Front Door 
 
 ## Introduction
 
@@ -9,9 +9,8 @@ In this hack you will be solving the common problem that websites have with the 
 
 1. Provision an Azure Front Door and set up SSL
 2. Provision and Configure Web Application Firewall (WAF)
-3. Configure simple/complex routing rules and caching rules
-4. Provision a Static Web site with an Azure Storage Account
-5. Discover and Monitor traffic and WAF insights thru Log Analytics
+3. Configure simple/complex routing rules
+4. Discover and Monitor traffic and WAF insights thru Log Analytics
 
 ## Challenges
 1. [Setup your Environment and Discover](Student/Challenge01.md)
@@ -20,21 +19,14 @@ In this hack you will be solving the common problem that websites have with the 
    - Create a Front Door account with custom DNS and SSL
 3. [Provision a Web Application Firewall (WAF)](Student/Challenge03.md)
    - Create a Web Application Firewall Policy and guard your site!
-4. [Offload traffic for a high traffic event](Student/Challenge04.md)
-   - Use a Static Web Site in Azure Storage and route specific traffic to it.
-5. [Cache Static Assets](Student/Challenge05.md)
-   - Use the Rules Engine in Front Door to cache some of the resources of your site
+4. [Force HTTPS thru Rules Engine](Student/Challenge05.md)
+   - Create routing rule to force all traffic to HTTPS.  
+5. [Monitor WAF traffic thru Log Analytics](Student/Challenge06.md) [Optional]
+   - Use ZAP tool to trigger OWASP and High Risk traffic and monitor WAF logs
 
 ## Prerequisites
 - Your own Azure subscription with Owner access
   - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
-- Linux Instance, can be either:
-  - Running Windows Subsystem for Linux (WSL) 1.0 or 2.0
-  - Running on Mac
-  - Running a Linux VM in Azure ([link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
-- Install [w3af](https://docs.w3af.org/en/latest/index.html) on that Linux Instance ([link](https://docs.w3af.org/en/latest/install.html))
-  - This will be used to exercise the WAF
-  - Just need the console version running
 - Some form of Chromium Web Browser installed
   - [Microsoft Edge](https://www.microsoft.com/en-us/edge)
   - [Google Chrome](https://www.google.com/chrome/)
