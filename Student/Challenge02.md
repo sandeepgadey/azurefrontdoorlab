@@ -64,7 +64,6 @@ For this challenge we are going to:
 
 - Demonstrate the website working thru Front Door via https://frontdoor.***SITENAME***.contosocsalabs.com 
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- Show requests that were logged thru Front Door's logs
 - With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the www.***SITENAME***.contosocsalabs.com vs frontdoor.***SITENAME***.contosocsalabs.com performance.
   - ***HINT*** - Make sure to run it 3 times prior to looking a final results.
   - Compare the Connect and TLS times

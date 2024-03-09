@@ -21,15 +21,14 @@ In this hack you will be solving the common problem that websites have with the 
    - Create a Web Application Firewall Policy and guard your site!
 4. [Force HTTPS thru Rules Engine](Student/Challenge05.md)
    - Create routing rule to force all traffic to HTTPS.  
-5. [Monitor WAF traffic thru Log Analytics](Student/Challenge06.md) [Optional]
+5. [Monitor WAF traffic thru Log Analytics](Student/Challenge06.md) [ Optional ]
    - Use ZAP tool to trigger OWASP and High Risk traffic and monitor WAF logs
 
 ## Prerequisites
 - Your own Azure subscription with Owner access
   - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
+- Install [ZAP](https://www.zaproxy.org/download/) [ Required for Challenge#5 ]
 - Some form of Chromium Web Browser installed
   - [Microsoft Edge](https://www.microsoft.com/en-us/edge)
   - [Google Chrome](https://www.google.com/chrome/)
-
-
 

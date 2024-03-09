@@ -9,8 +9,6 @@
   
 ## Introduction
 
-We now have a globally scaled website, protected by WAF.   
-
 Azure Web Application Firewall in Azure Front Door provides extensive logging and telemetry to help you understand how your web application firewall (WAF) is performing and the actions it takes.
 
 The Azure Front Door WAF log is integrated with Azure Monitor. Azure Monitor enables you to track diagnostic information, including WAF alerts and logs. You can configure WAF monitoring within the Azure Front Door resource in the Azure portal under the Diagnostics tab, through infrastructure as code approaches, or by using Azure Monitor directly.
@@ -27,7 +25,7 @@ For this challenge we are going to:
 
 
 ## Success Criteria
-
+- Show requests that were logged thru Front Door's logs
 - Demonstrate Usage analytics thru [built-in reports](https://learn.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-reports?tabs=traffic-by-domain) 
 - Monitor Blocked traffic by running Kusto Query - [Reference](https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-monitor?pivots=front-door-standard-premium#waf-logs)
 
