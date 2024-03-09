@@ -2,17 +2,10 @@
 
  **[Home](../README.md)** - [Next Challenge [2] >](./Challenge02.md)
 
-## Pre-requisites
-
+## Prerequisites
 - Your own Azure subscription with Owner access
   - Or a Resource Group with Contributor access and ability to manage [Resource Providers](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types)
-- Linux Instance, can be either:
-  - Running Windows Subsystem for Linux (WSL) 1.0 or 2.0
-  - Running on Mac
-  - Running a Linux VM in Azure ([link](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
-- Install [w3af](https://docs.w3af.org/en/latest/index.html) on that Linux Instance ([link](https://docs.w3af.org/en/latest/install.html))
-  - This will be used to exercise the WAF
-  - Just need the console version running
+- Install [ZAP](https://www.zaproxy.org/download/) [ Required for Challenge#5 ]
 - Some form of Chromium Web Browser installed
   - [Microsoft Edge](https://www.microsoft.com/en-us/edge)
   - [Google Chrome](https://www.google.com/chrome/)
@@ -64,8 +57,6 @@ Use the link below to deploy the solution to your resource group.
 
 ## Success Criteria
 
-- Show that you can load w3af and display the help
-  - Running w3af_console then the command **help**
 - Show the newly deployed resources in the Azure Portal
   - Highlighting the **www** record in your new Azure DNS Zone
 - Demonstrate your new version of the Contoso Website loads

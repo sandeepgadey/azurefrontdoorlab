@@ -1,6 +1,6 @@
 # Challenge 3 - Provision a Web Application Firewall (WAF)
 
-[< Previous Challenge [2]](./Challenge02.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [4] >](./Challenge04.md)
+[< Previous Challenge [2]](./Challenge02.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**&nbsp;&nbsp;-&nbsp;&nbsp;[Next Challenge [4] >](./Challenge05.md)
 
 ## Introduction
 
@@ -29,23 +29,14 @@ For this challenge we are going to:
 1. Provision a Azure Web Application Firewall Policy
    1. Configure the Default Rule Set
    2. Add a Custom rule to allow only the country you are currently located.
-2. Run w3af_console (after the last command, it will take a few minutes and should see a lot of scrolling text)
-   - At the prompt "w3af>>>", type:  `profiles`
-   - At the prompt "w3af/profiles>>>", type:  `use audit_high_risk`
-   - At the prompt "w3af/profiles>>>", type:  `use OWASP_TOP10`
-   - At the prompt "w3af/profiles>>>", type:  `back`
-   - At the prompt "w3af>>>", type:  `target`
-   - At the prompt "w3af/config:target>>>", type (substitute your site name for SITENAME):  `set target https://frontdoor.***SITENAME***.contosocsalabs.com`
-  - At the prompt "w3af/config:target>>>", type `back`
-  - At the prompt "w3af>>>", type:  `start`
-3. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosocsalabs.com performance.
+2. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosocsalabs.com performance.
    - You should see several of the requests fail now for the 
 
 ## Success Criteria
 
 - Demonstrate the website still works thru Front Door via https://frontdoor.***SITENAME***.contosocsalabs.com 
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
-- Show distinct list of rules that were used in  requests with the count of offenses in the Azure logs.
+
 - Demonstrate the geofiltering rule is blocking requests for countries other than your own
 
 
