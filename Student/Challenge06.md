@@ -1,4 +1,4 @@
-# Challenge 5 - Monitor WAF traffic thru Log Analytics
+# Challenge 4 - Monitor WAF traffic thru Log Analytics
 
 [< Previous Challenge [4]](./Challenge05.md)&nbsp;&nbsp;-&nbsp;&nbsp;**[Home](../README.md)**
 
