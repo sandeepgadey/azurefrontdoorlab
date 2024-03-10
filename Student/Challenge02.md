@@ -55,7 +55,7 @@ You will notice we aren't talking about caching yet, which is the concept of sto
 ## Description
 
 For this challenge we are going to:
-1. Provision a new Front Door resource for your website
+1. Provision a new Front Door resource for your website - [Reference](https://learn.microsoft.com/en-us/azure/frontdoor/create-front-door-portal)
 2. Create a Custom Domain in Front Door for you website with SSL, called frontdoor.***SITENAME***.contosocsalabs.com, where SITENAME is what you specified in Challenge 0.
    1. **IMPORTANT** - Normally you migrate a DNS Name, like www, to Front Door.  For comparison purposes, we are using a different name for the Front Door implementation.
   

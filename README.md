@@ -19,7 +19,7 @@ In this hack you will be solving the common problem that websites have with the 
    - Create a Front Door account with custom DNS and SSL
 3. [Provision a Web Application Firewall (WAF)](Student/Challenge03.md)
    - Create a Web Application Firewall Policy and guard your site!
-4. [Monitor WAF traffic thru Log Analytics](Student/Challenge06.md) [ Optional ]
+4. [Monitor WAF traffic thru Log Analytics](Student/Challenge06.md)
    - Use ZAP tool to trigger OWASP and High Risk traffic and monitor WAF logs
 
 ## Prerequisites
