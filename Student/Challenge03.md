@@ -26,9 +26,10 @@ For the purpose of this challenge, you will go straight to Prevention mode.  You
 ## Description
 
 For this challenge we are going to:
-1. Provision a Azure Web Application Firewall Policy
+1. Provision a Azure Web Application Firewall Policy - [Reference](https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-create-portal)
    1. Configure the Default Rule Set
    2. Add a Custom rule to allow only the country you are currently located.
+   3. Change WAF Policy to Prevention Mode
 2. With a Browser window open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the frontdoor.***SITENAME***.contosocsalabs.com performance.
    - You should see several of the requests fail now for the 
 

@@ -21,7 +21,7 @@ Logs aren't enabled by default. You must explicitly enable logs. You can configu
 
 For this challenge we are going to:
 1. Configure Azure Front Door Diagnostic Logs  - [Reference](https://learn.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-logs)
-2. Trigger Automated Scan thru ZAP - Reference
+2. Trigger Automated Scan thru ZAP 
 
 
 ## Success Criteria
