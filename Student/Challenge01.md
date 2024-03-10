@@ -62,6 +62,8 @@ Use the link below to deploy the solution to your resource group.
 - Demonstrate your new version of the Contoso Website loads
 - Show the "waterfall" of the one of the Images in the Dev Tools of your Web Browser 
 
+## Reference video recording
+[Challenge 1](https://microsoft-my.sharepoint.com/:v:/p/sandeepgadey/ERVJDm20RExKjE6gDHDJRf0BRcRm5u7TQsNxcl-1DCuZhA?e=lpwFcY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Learning Resources
 

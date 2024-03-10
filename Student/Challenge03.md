@@ -23,6 +23,7 @@ For Azure this means using a [Web Application Firewall Policy with Front Door](h
 
 For the purpose of this challenge, you will go straight to Prevention mode.  You may also choose to put the WAF into Detection mode than switch it, but the end success criteria will need to demonstrate blocked requests.
 
+
 ## Description
 
 For this challenge we are going to:
@@ -39,6 +40,9 @@ For this challenge we are going to:
   - ***HINT*** - You will see **x-azure-ref** in the Response Headers of each request to Front Door.
 
 - Demonstrate the geofiltering rule is blocking requests for countries other than your own
+
+## Reference video recording
+[Challenge 3](https://microsoft-my.sharepoint.com/:v:/p/sandeepgadey/EdOPA0H7f2VBuT7eb4wX3LMBKfv11ZBzqJH7FDUCstsqKw?e=1sNue4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ## Learning Resources

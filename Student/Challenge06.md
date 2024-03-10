@@ -21,6 +21,7 @@ Logs aren't enabled by default. You must explicitly enable logs. You can configu
 
 For this challenge we are going to:
 1. Configure Azure Front Door Diagnostic Logs  - [Reference](https://learn.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-logs)
+    - Select both audit and allLogs Category groups
 2. Trigger Automated Scan thru ZAP 
 
 
@@ -28,6 +29,10 @@ For this challenge we are going to:
 - Show requests that were logged thru Front Door's logs
 - Demonstrate Usage analytics thru [built-in reports](https://learn.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-reports?tabs=traffic-by-domain) 
 - Monitor Blocked traffic by running Kusto Query - [Reference](https://learn.microsoft.com/en-us/azure/web-application-firewall/afds/waf-front-door-monitor?pivots=front-door-standard-premium#waf-logs)
+
+## Reference video recording
+[Challenge 4](https://microsoft-my.sharepoint.com/:v:/p/sandeepgadey/EfA-u1vPfR9JkPLwAGK5-IwBv7lYHouvwl4OZkWyAaOH2g?e=dEW6Ja&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 ## Learning Resources
 

@@ -67,6 +67,9 @@ For this challenge we are going to:
 - With 2 Browser windows open to [https://tools.keycdn.com/performance](https://tools.keycdn.com/performance), test the www.***SITENAME***.contosocsalabs.com vs frontdoor.***SITENAME***.contosocsalabs.com performance.
   - ***HINT*** - Make sure to run it 3 times prior to looking a final results.
   - Compare the Connect and TLS times
+  
+## Reference video recording
+[Challenge 2](https://microsoft-my.sharepoint.com/:v:/p/sandeepgadey/EWvfXAQqQntEsgZINgKfLQsBSB3MrO49FfZ9iq4wfwhQOA?e=IrShTg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Learning Resources
 
